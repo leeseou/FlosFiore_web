@@ -11,91 +11,91 @@ const qnaList = [
   {
     q: '1. 반려 식물을 얼마나 키워봤나요?',
     a: [
-      { answer: 'a. 키워본 적 없음', type: [ ]},
-      { answer: 'b. 1개월 이하', type: [] },
-      { answer: 'c. 1~3개월', type: [ ] },
-      {answer:'d. 3~6개월', type:[]},
+      { answer: 'a. 키워본 적 없음', type: [ 0,1,2,3,4]},
+      { answer: 'b. 1개월 이하', type: [1,2,3,4] },
+      { answer: 'c. 1~3개월', type: [2,3,4 ] },
+      {answer:'d. 3~6개월', type:[3,4]},
     ]
   },
   {
     q: '2. "식집사"는 어떤 사람을 의미하나요? ',
     a: [
-      { answer: 'a. 음식을 먹어본 후 맛을 알려주는 사람', type: [] },
-      { answer: 'b. 식물을 키우는 사람', type: [] },
-      { answer: 'c. 결혼식에서 신부를 도와주는 사람', type: [] },
+      { answer: 'a. 음식을 먹어본 후 맛을 알려주는 사람', type: [0,1,2,3,4] },
+      { answer: 'b. 식물을 키우는 사람', type: [1,2,3,4] },
+      { answer: 'c. 결혼식에서 신부를 도와주는 사람', type: [2,3,4] },
     ]
   },
   {
     q: '3. 식물을 돌보면서 즐거움을 느끼나요? 걱정을 먼저 하나요?',
     a: [
-      { answer: 'a. 어떻게 자랄지 기대가 되고 즐거움을 느낀다', type: [] },
-      { answer: 'b. 식물을 어떻게 잘 키울지 걱정이 된다', type: [] },
-      { answer: 'c. 아무런 생각이 없다', type: [] }
+      { answer: 'a. 어떻게 자랄지 기대가 되고 즐거움을 느낀다', type: [0,1,2,3,4] },
+      { answer: 'b. 식물을 어떻게 잘 키울지 걱정이 된다', type: [1,2,3,4] },
+      { answer: 'c. 아무런 생각이 없다', type: [2,3,4,] }
     ]
   },
   {
     q: '4. 반려식물 호텔이 있다는 사실을 알고 있었나요?',
     a: [
-      { answer: 'a. 몰랐다 ', type: [] },
-      { answer: 'b. 알고 있었지만 가보진 않았다', type: [ ] },
-      { answer: 'c. 알고 있었으며 가봤다 ', type: [] },
+      { answer: 'a. 몰랐다 ', type: [0,1,2,3,4] },
+      { answer: 'b. 알고 있었지만 가보진 않았다', type: [ 1,2,3,4] },
+      { answer: 'c. 알고 있었으며 가봤다 ', type: [2,3,4] },
     ]
   },
   {
     q: '5. 손만 대면 식물을 죽인다는 "식물 킬러"라는 별명으로 불려본 적 있나요?',
     a: [
-      { answer: 'a. 들어본 적 있다', type: [] },
-      { answer: 'b. 들어본 적 없다', type: []},
+      { answer: 'a. 들어본 적 있다', type: [1,2,3,4] },
+      { answer: 'b. 들어본 적 없다', type: [2,3,4]},
     ]
   },
 
   {
     q: '6. 처음 접하는 식물도 어떻게 돌봐야 할 지 금방 터득할 수 있나요?',
     a: [
-      { answer: 'a. 아니요ㅜ', type: [] },
-      { answer: 'b. 금방 터득할 자신 있습니다', type: [] },
-      { answer: 'c. 이미 모든 식물에 대해 파악 완료한 상태입니다', type: [] },
+      { answer: 'a. 아니요ㅜ', type: [1,2,3,4] },
+      { answer: 'b. 금방 터득할 자신 있습니다', type: [2,3,4] },
+      { answer: 'c. 이미 모든 식물에 대해 파악 완료한 상태입니다', type: [3,4] },
     ]
   },
   {
     q: '7. 식물성장 조명의 색상은 무엇인가요?',
     a: [
-      { answer: 'a. 파란색', type: [] },
-      { answer: 'b. 노란색', type: [] },
-      { answer: 'c. 자주색', type: [ ] },
+      { answer: 'a. 파란색', type: [2,3,4] },
+      { answer: 'b. 노란색', type: [3,4] },
+      { answer: 'c. 자주색', type: [ 4] },
     ]
   },
   {
     q: '8. "플랜테리어"는 어떤 단어를 합성하여 만들었을까요?',
     a: [
-      { answer: 'a. plant + interior', type: [ ] },
-      { answer: 'b. plant + territory', type: [ ] },
-      { answer: 'c. plain + exterior', type: [ ] },
-      { answer: 'd. plane + interior', type: [] },
+      { answer: 'a. plant + interior', type: [ 3,4] },
+      { answer: 'b. plant + territory', type: [ 0] },
+      { answer: 'c. plain + exterior', type: [0 ] },
+      { answer: 'd. plane + interior', type: [0] },
     ]
   },
   {
     q: '9. 식물 키우기의 필수 4요소가 아니라고 생각되는 것을 고르시오',
     a: [
-      { answer: 'a. 온도', type: [ ] },
-      { answer: 'b. 시멘트', type: []},
-      { answer: 'c. 빛', type: [ ] },
-      { answer: 'd. 수분', type: [] },
+      { answer: 'a. 온도', type: [ 1,2,3,4] },
+      { answer: 'b. 시멘트', type: [0]},
+      { answer: 'c. 빛', type: [1,2,3,4 ] },
+      { answer: 'd. 수분', type: [1,2,3,4] },
     ]
   },
   {
     q: '10. 식물을 보며 멍 때리는 것을 뜻하는 것으로 가장 적합한 신조어는 무엇일까요? ',
     a: [
-      { answer: 'a. 플멍', type: [] },
-      { answer: 'b. 식멍', type: [] },
-      { answer: 'c. 숲멍', type: [ ] },
+      { answer: 'a. 플멍', type: [0,1,2,3] },
+      { answer: 'b. 식멍', type: [4] },
+      { answer: 'c. 숲멍', type: [ 0,1,2,3] },
     ]
   },
   {
     q: '11. 작약은 끝을 뜨거운 물로 지져줘야 한다 (O/X)  ',
     a: [
-      { answer: 'a. O(맞다)', type: [ ] },
-      { answer: 'b. X(아니다)', type: [] },
+      { answer: 'a. O(맞다)', type: [ 4] },
+      { answer: 'b. X(아니다)', type: [0,1,2,3] },
     ]
   }
 ]
