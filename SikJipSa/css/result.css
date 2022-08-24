@@ -13,17 +13,7 @@
   .resultDesc{
     font-size: 20px;
   }
-  
-  .kakao{
-    color: white;
-    background-color: green;
+
+  .info{
     font-size: 20px;
-    border: 0px;
-    border-radius: 20px;
   }
-  
-  .kakao:hover, .kakao:focus {
-    background-color: whitesmoke;
-    color: green;
-  }
-  
