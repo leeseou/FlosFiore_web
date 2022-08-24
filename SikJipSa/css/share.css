@@ -1,0 +1,18 @@
+#share{
+    display: none;
+    background-color: whitesmoke;
+    width: 80%;
+    text-align: center;
+    border-radius: 20px;
+  }
+  
+  .sharename{
+    font-size: 26px;
+  }
+  
+  .shareDesc{
+    font-size: 20px;
+  }
+  
+  
+  
